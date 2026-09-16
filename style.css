@@ -1,0 +1,116 @@
+/* сторінка */
+body {
+    background-color: #fdfaf5;
+    font-family: Arial, "Segoe UI", system-ui, sans-serif;
+    color: #2c2c2c;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 24px 40px;
+}
+
+/* шапка */
+#main-header {
+    text-align: center;
+    padding: 24px 0;
+}
+
+/* заголовок h1 */
+#page-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #6a3d9a;
+    margin: 0;
+}
+
+/* заголовки h2 */
+.section-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #b5651d;
+    text-align: left;
+    border-bottom: 2px solid #f2c14e;
+    padding-bottom: 6px;
+    margin-top: 40px;
+}
+
+/* h3 */
+h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #444444;
+}
+
+/* вступ */
+.intro {
+    font-size: 1.15rem;
+    font-style: italic;
+    background-color: #fff6e5;
+    border-left: 4px solid #f2c14e;
+    padding: 14px 18px;
+}
+
+/* акценти */
+strong,
+.highlight {
+    color: #b5651d;
+    background-color: #fff3cd;
+    padding: 0 3px;
+    font-weight: 700;
+}
+
+em {
+    color: #6a3d9a;
+    font-style: italic;
+}
+
+/* посилання */
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+/* наведення */
+a:hover {
+    color: #b5651d;
+    text-decoration: underline;
+}
+
+/* списки */
+ul {
+    list-style-type: square;
+    color: #333333;
+}
+
+ol {
+    list-style-type: decimal;
+    color: #333333;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* таблиця */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 12px;
+}
+
+th, td {
+    border: 1px solid #d9d0c3;
+    padding: 10px 14px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2c14e;
+    color: #2c2c2c;
+}
+
+/* фото */
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 8px;
+}
